@@ -1,9 +1,8 @@
 class Project
-  attr_accessor :title, :backed_projects 
+  attr_accessor :title 
   
   def initialize(title)
     @title = title 
-    @backed_projects = []  
   end 
   
 end 
