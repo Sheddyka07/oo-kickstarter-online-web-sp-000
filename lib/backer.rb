@@ -6,7 +6,8 @@ class Backer
   end 
   
   def back_project(Project)
-    
+    @@all = []
+    @@all << Projects.new
   
   
 end 
